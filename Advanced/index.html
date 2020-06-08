@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+</head>
+
+<body>
+    <h1>Best Books 2020</h1>
+    <br>
+
+    <div id="result">
+        </ div>
+        <script>
+            // create object one
+            var object1 = {
+                "title": "This is us",
+                "author": "Samson",
+                "read": "false"
+            };
+            // Print object1
+            document.getElementById('result').innerHTML = "<h3>title = " + object1.title + "</h3><h3>Author = " + object1.author + "</h3><h3>read =" + object1.read + "</h3>";
+
+            // create object2
+            var object2 = {
+                "title": "How to Coding",
+                "author": "Hans",
+                "read": "true"
+            };
+            // print object2
+            document.getElementById('result').innerHTML += "<br><h3>title = " + object2.title + "</h3><h3>Author = " + object2.author + "</h3><h3>read =" + object2.read + "</h3>";
+        </script>
+</body>
+
+</html>
