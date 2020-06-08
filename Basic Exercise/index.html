@@ -11,11 +11,9 @@
   <div id ="result"></div>
   <script  type="text/javascript" src="data.json" ></script>
   <script>
-  var data = JSON.parse(data); // convert string into an object
-  console.log(data); // prints converted object into the console
-  /* Prints data from Object1 */
+  var data = JSON.parse(data);
+  console.log(data);
   document.getElementById('result').innerHTML += "My favorite sandwich is a " + data[0].sandwich + " which has approximately " + data[0].calorie + " calories, along with it I enjoy eating " + data[1].fries_size + " which have about " +data[1].calories + " calories";
-  /* Prints data from Object1 */
   </script>
     
 </body>
