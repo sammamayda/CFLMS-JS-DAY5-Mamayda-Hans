@@ -1,0 +1,72 @@
+var json =`[{
+    "UniqueId": "29893944817",
+    "FirstName": "Brad",
+    "LastName": "Pitt",
+    "EmailAddress": "brad.pitt@gmail.com",
+    "JobTitleName": "Actor",
+    "Salary": "5000.- €"
+
+  }, {
+    "UniqueId": "29893944818",
+    "FirstName": "Angelina",
+    "LastName": "Jolie",
+    "EmailAddress": "angelina.jolie@gmail.com",
+    "JobTitleName": "Actress",
+    "Salary": "4000.- €"
+  }, {
+    "UniqueId": "29893944819",
+    "FirstName": "John",
+    "LastName": "Trapper",
+    "EmailAddress": "john@gmail.com",
+    "JobTitleName": "Doctor",
+    "Salary": "8000.- €"
+  }, {
+    "UniqueId": "29893944820",
+    "FirstName": "Bruce",
+    "LastName": "Springsteen",
+    "EmailAddress": "bruce.springsteen@gmail.com",
+    "JobTitleName": "Singer",
+    "Salary": "6000.- €"
+  }, {
+    "UniqueId": "29893944821",
+    "FirstName": "Andrea",
+    "LastName": "Berg",
+    "EmailAddress": "andrea.berg@gmail.com",
+    "JobTitleName": "Schlagersänger",
+    "Salary": "2000.- €"
+  }, {
+    "UniqueId": "29893944822",
+    "FirstName": "Jon",
+    "LastName": "Bon Jovi",
+    "EmailAddress": "j.b.jovi@gmail.com",
+    "JobTitleName": "Singer",
+    "Salary": "12000.- €"
+  }, {
+    "UniqueId": "29893944823",
+    "FirstName": "Julia",
+    "LastName": "Roberts",
+    "EmailAddress": "j.roberts@gmail.com",
+    "JobTitleName": "Actress",
+    "Salary": "22000.- €"
+  }, {
+    "UniqueId": "29893944824",
+    "FirstName": "Arnold",
+    "LastName": "Schwarzenegger",
+    "EmailAddress": "a.schwarzenegger@gmail.com",
+    "JobTitleName": "Actor",
+    "Salary": "200000.- €"
+  }, {
+    "UniqueId": "29893944825",
+    "FirstName": "Tom",
+    "LastName": "Hanks",
+    "EmailAddress": "t.hanks@gmail.com",
+    "JobTitleName": "Actor",
+    "Salary": "25000.- €"
+  }, {
+    "UniqueId": "29893944826",
+    "FirstName": "Claudia",
+    "LastName": "Schiffer",
+    "EmailAddress": "c.schiffer@gmail.com",
+    "JobTitleName": "Model",
+    "Salary": "70000.- €"
+  }]`;
