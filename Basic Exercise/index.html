@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Basic 1</title>
 </head>
+
 <body>
 
     <h1>My favorite Sandwich</h1>
-  <div id ="result"></div>
-  <script  type="text/javascript" src="data.json" ></script>
-  <script>
-  var data = JSON.parse(data);
-  console.log(data);
-  document.getElementById('result').innerHTML += "My favorite sandwich is a " + data[0].sandwich + " which has approximately " + data[0].calorie + " calories, along with it I enjoy eating " + data[1].fries_size + " which have about " +data[1].calories + " calories";
-  </script>
-    
+    <p> this is what we want to do all the time.</p>
+    <div id="result"></div>
+    <script type="text/javascript" src="data.json"></script>
+    <script>
+        var data = JSON.parse(data);
+        console.log(data);
+        document.getElementById('result').innerHTML += "My favorite sandwich is a " + data[0].sandwich + " which has approximately " + data[0].calorie + " calories, along with it I enjoy eating " + data[1].fries_size + " which have about " + data[1].calories + " calories";
+    </script>
+
 </body>
+
 </html>
